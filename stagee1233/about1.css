@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #f5f2f2;
+}
+.about-uss{
+  height: 120vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #f5f2f2;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+.text{
+  width: 540px;
+}
+.text h3{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.image1-section{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 200000%;
+  margin-left: 100000%;
+  border: none;
+  top: 250%;
+}
+.image1-section img {
+  float:100%;
+  height: auto;
+  margin-top: -11000%;
+  margin-left: 250%;
+}
+.image2-section{
+  overflow: auto;
+  display: flex; /* utilise le modèle flexbox */
+  flex-direction: row; /* aligne les éléments horizontalement */
+  justify-content: space-between; /* espace les éléments sur la ligne */
+  align-items: center; /* aligne les éléments verticalement au centre */
+}
+.image2-section img {
+  float: right; 
+  order: 2;
+  margin-left: 10px;
+  width: 450px;
+  height: 250px;
+}
+.text2 {
+  clear: left;
+  width: 800px;
+  order: 1;
+  margin-right: 100px;
+}
+.text2{
+  width: 540px;
+}
+.text2 h3{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text2 h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.text3 p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.text3{
+  width: 540px;
+}
+.text3 h3{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text3 h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.text3 p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.image3-section{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 200000%;
+  margin-left: 100000%;
+  border: none;
+  top: 200%;
+}
+.image3-section img {
+  float:100%;
+  height: 350px;
+  width: 550px;
+  margin-top: -11000%;
+  margin-left: 250%;
+}
+.image4-section{
+  overflow: auto;
+  display: flex; /* utilise le modèle flexbox */
+  flex-direction: row; /* aligne les éléments horizontalement */
+  justify-content: space-between; /* espace les éléments sur la ligne */
+  align-items: center; /* aligne les éléments verticalement au centre */
+}
+.image4-section img {
+  float: right; 
+  order: 2;
+  margin-left: 10px;
+  width: 450px;
+  height: 300px;
+}
+.text4 {
+  clear: left;
+  width: 800px;
+  order: 1;
+  margin-right: 100px;
+}
+.text4{
+  width: 540px;
+}
+.text4 h3{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text4 h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
